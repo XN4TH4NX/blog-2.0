@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Culinario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="img/chef.jfif">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-utensils"></i>
+                <span>Mi Blog Culinario</span>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#recetas">Recetas</a></li>
+                <li><a href="#categorias">Categorías</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Recetas Caseras</h1>
+            <a href="#recetas" class="btn-primary">Explorar Recetas</a>
+        </div>
+    </section>
+
+    <section id="recetas" class="recipes-section">
+        <h2>Recetas Destacadas</h2>
+        <div class="recipe-grid">
+            <article class="recipe-card featured">
+                <img src="img/pasta.jfif" alt="Pasta Carbonara">
+                <div class="card-content">
+                    <h3>Pasta Carbonara Clásica</h3>
+                    <span class="badge">Italiana</span>
+                    <p>Tiempo: 30 min | Dificultad: Fácil</p>
+                    <button class="btn-secondary" data-receta="pasta.html">Ver Receta</button>
+                </div>
+            </article>
+            <article class="recipe-card">
+                <img src="img/tacos.jfif" alt="Tacos al Pastor">
+                <div class="card-content">
+                    <h3>Tacos al Pastor Auténticos</h3>
+                    <span class="badge">Mexicana</span>
+                    <p>Tiempo: 60 min | Dificultad: Media</p>
+                    <button class="btn-secondary" data-receta="tacos.html">Ver Receta</button>
+                </div>
+            </article>
+            <article class="recipe-card">
+                <img src="img/ensalada.jfif" alt="Ensalada César">
+                <div class="card-content">
+                    <h3>Ensalada César Fresca</h3>
+                    <span class="badge">Saludable</span>
+                    <p>Tiempo: 20 min | Dificultad: Muy Fácil</p>
+                    <button class="btn-secondary" data-receta="ensalada.html">Ver Receta</button>
+                </div>
+            </article>
+    </section>
+
+    <section id="categorias" class="categories-section">
+        <h2>Explora por Categorías</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <i class="fas fa-pizza-slice"></i>
+                <h3>Platos Principales</h3>
+                <p>15 Recetas</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-cookie-bite"></i>
+                <h3>Postres</h3>
+                <p>10 Recetas</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Vegetarianas</h3>
+                <p>8 Recetas</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-cocktail"></i>
+                <h3>Bebidas</h3>
+                <p>5 Recetas</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-egg"></i>
+                <h3>Desayunos</h3>
+                <p>7 Recetas</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-fish"></i>
+                <h3>Pescados y Mariscos</h3>
+                <p>6 Recetas</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="about-me-section">
+        <div class="about-content">
+            <img src="img/chef.jfif" alt="Mi Foto" class="profile-pic">
+            <h2>Hola, soy Abimael</h2>
+            <p>¡Bienvenido a mi rincón culinario! la cocina ha sido mi pasión y mi refugio. Me encanta experimentar con nuevos sabores, ingredientes y técnicas.
+            <div class="social-links">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="newsletter-section">
+        <h2>¡No te pierdas ninguna receta!</h2>
+        <p>Suscríbete a nuestro newsletter y recibe las últimas novedades, consejos de cocina y ofertas exclusivas directamente en tu bandeja de entrada.</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="colinabimael6@gmail.com" required>
+            <button type="submit" class="btn-primary">Suscribirme</button>
+        </form>
+    </section>
+
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Mi Blog Culinario</h3>
+                <p>Explorando sabores y compartiendo recetas con amor.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#recetas">Recetas</a></li>
+                    <li><a href="#categorias">Categorías</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <p>Email: ----</p>
+                <p>Teléfono: ---</p>
+                <div class="social-links-footer">
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Abimael. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
